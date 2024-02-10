@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>SignUp</servlet-name>
+		<servlet-class>SignUp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignUp</servlet-name>
+		<url-pattern>/SignUp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddStudentRecord</servlet-name>
+		<servlet-class>AddStudentRecord</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddStudentRecord</servlet-name>
+		<url-pattern>/AddStudentRecord</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchStudentRecord</servlet-name>
+		<servlet-class>SearchStudentRecord</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchStudentRecord</servlet-name>
+		<url-pattern>/SearchStudentRecord</url-pattern>
+	</servlet-mapping>
+<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>UpdateStudentRecord</servlet-name>
+		<servlet-class>UpdateStudentRecord</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdateStudentRecord</servlet-name>
+		<url-pattern>/UpdateStudentRecord</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteStudentRecord</servlet-name>
+		<servlet-class>DeleteStudentRecord</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DeleteStudentRecord</servlet-name>
+		<url-pattern>/DeleteStudentRecord</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>ViewGrades</servlet-name>
+		<servlet-class>ViewGrades</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ViewGrades</servlet-name>
+		<url-pattern>/ViewGrades</url-pattern>
+	</servlet-mapping>
+		
+
+
+
+</web-app>
